@@ -57,8 +57,8 @@ In the final part, I explored how to reduce model size using knowledge distillat
   - Compared validation performance between teacher and student networks.
 
 - **Outcomes:**  
-  - **Teacher (ResNet34):** 94.85% accuracy, 21.8M parameters  
-  - **Student (ResNet18 + KD):** 85.76% accuracy, 11.2M parameters
+  - **Teacher (ResNet34):** 92.00% accuracy  
+  - **Student (ResNet18):** 85.35% accuracy
 
 - **Real-world benefit:**  
   Achieved large reduction in model size with only minor accuracy loss—ideal for deploying on limited-resource devices.
@@ -67,7 +67,17 @@ In the final part, I explored how to reduce model size using knowledge distillat
 
 ## Project Directory
 
-<pre><code>``` Part1/ ├── part1–submission.ipynb Part2/ ├── part2_submission.ipynb Part3/ ├── IEEE_Report_ShuoSun.docx ├── part3.ipynb ├── submission.csv README.md ``` </code></pre>
+<pre><code>  2025-Phase-2-Data-Science-Shuo-Sun/
+ ├── Part1/
+ │ └── part1_submission.ipynb
+ │ └── summary.pdf
+ ├── Part2/
+ │ └── part2_submission.ipynb
+ ├── Part3/
+ │ └── part3.ipynb
+ │ └── submission.csv
+ │ └── IEEE_Report_ShuoSun.docx
+ └── README.md </code></pre>
 
 
 ---
